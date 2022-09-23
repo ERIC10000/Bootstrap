@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Linked your CSS Boostrap -->
+
+    <style>
+        img {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+
+
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Linked JS Boostrap -->
+</head>
+
+<body>
+
+    <!-- Grid System - Provides a page Layout (positioning) -->
+    <!-- Tables, CSS FlexBox -->
+
+    <!-- container -> Holds every contents of the page, navbar to footer -->
+    <!-- container, container-fluid -->
+
+    <!-- Section a page interms of rows, columns -->
+    <!-- A row is divided into 12 equal grids -->
+    <!-- For example - 2 columns, each covers 6 grids -->
+
+    <div class="container-fluid bg-secondary">
+        <h1 class="display-2 text-center">Flex Stores</h1>
+        <!-- A row of 2 columns -->
+
+        <section class="row mb-5 ">
+            <div class="col-6 text-center mr-2 p-5">
+                <h4>Bedding</h4>
+                <img src="images/bed.png" alt="Bed" class="img-thumbnail">
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur illo
+                    perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                    voluptas dicta adipisci totam rem.</p>
+
+                <a href="" class="btn btn-primary btn-lg">Order Now</a>
+
+            </div>
+
+
+            <div class="col-6 text-center p-5">
+                <h4>Dining</h4>
+                <img src="images/bed.png" alt="Dining" class="img-thumbnail">
+
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur illo
+                    perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                    voluptas dicta adipisci totam rem.</p>
+
+                <a href="" class="btn btn-primary btn-lg">Order Now</a>
+
+            </div>
+
+        </section>
+        <!-- end First row -->
+
+        <section class="row">
+            <!-- A row of 4 equal columns -->
+
+            <div class="col-3 bg-danger">
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur illo
+                    perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                    voluptas dicta adipisci totam rem.</p>
+
+            </div>
+
+            <div class="col-3 bg-warning">
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur illo
+                    perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                    voluptas dicta adipisci totam rem.</p>
+
+            </div>
+
+            <div class="col-3 bg-light">
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur illo
+                    perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                    voluptas dicta adipisci totam rem.</p>
+
+            </div>
+
+            <div class="col-3 bg-dark">
+                <p class="muted text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur
+                    illo perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                    voluptas dicta adipisci totam rem.</p>
+
+            </div>
+
+
+        </section>
+        <!-- End second row -->
+
+        <section class="row">
+            <div class="col-4 bg-secondary">
+
+
+            </div>
+
+            <div class="col-8 bg-primary">
+                <section class="row">
+                    <div class="col-6 bg-secondary">
+                        <p class="muted text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur
+                            illo perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                            voluptas dicta adipisci totam rem.</p>
+
+                    </div>
+
+                    <div class="col-6 bg-info">
+                        <p class="muted text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, neque pariatur
+                            illo perferendis minus consectetur obcaecati sed nemo voluptatem. Ad, labore hic porro facere enim
+                            voluptas dicta adipisci totam rem.</p>
+
+                    </div>
+
+                </section>
+               
+
+            </div>
+
+        </section>
+        <!-- End third row -->
+
+
+
+
+    </div>
+    <!-- End Container -->
+
+</body>
+
+</html>
