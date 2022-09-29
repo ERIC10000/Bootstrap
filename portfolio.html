@@ -5,25 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-        a{
+        a {
             margin-right: 10px;
             font-size: 30px;
             text-align: center;
         }
-
     </style>
 
     <script src="js/bootstrap.js"></script>
+
+
+
+
+
+
 </head>
 
 <body>
+
     <div class="container-fluid mt-3">
         <div class="navbar navbar-expand-md navbar-dark bg-primary p-5">
             <a href="#" class="navbar-brand">Flex Stores</a>
@@ -39,9 +44,9 @@
                     <a href="#" class="nav-item nav-link">Login</a>
                     <a href="signup.html" class="nav-item nav-link">SignUp</a>
 
-                    <a href="#" class="nav-item nav-link active">Products</a>
+                    <a href="products.html" class="nav-item nav-link ">Products</a>
 
-                    <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                    <a href="#" class="nav-item nav-link active">Portfolio</a>
 
                     <form action="" class="form-group d-flex">
                         <input type="text" name="" id="" placeholder="Search" class="
@@ -58,16 +63,75 @@
 
     </div>
 
-    <!-- Start product contents -->
+    <!-- navbar -->
 
-    <!-- A card combines image and ints content on one item -->
-    <!-- card, card-body -->
+    <!-- content -->
 
     <div class="container-fluid bg-secondary">
 
-        <!-- Grid System to Layout the Product page -->
+        <section class="row">
+            <div class="col-12 text-center p-5">
+                <h3>BILL GATES</h3>
+                <img src="images/bill.jpg" alt="Bill Gates" width="300px" height="300px" class="rounded-circle">
+                
+                <h4 class="display-6 bg-primary p-2 mt-3 text-white" style="margin-left: 200px; margin-right: 200px; border-radius: 50px;">Software Developer</h4>
+
+                <p class="lead text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi odit neque earum obcaecati? Unde qui facere quis omnis illum, iste amet, aliquid itaque obcaecati libero quos, commodi quam delectus.</p>
+
+
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#info">More Info</button>
+
+
+                <div class="modal fade" id="info">
+                    <!-- header -->
+                    <!-- body -->
+                    <!-- footer -->
+
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <h4 class="modal-title">Career Experience</h4>
+                                <button type="btn" class="btn-close" data-bs-dismiss="modal"></button>
+
+                            </div>
+
+                            <div class="modal-body">
+                                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque fugit vero nulla eveniet consequuntur. Cum quae nihil voluptate voluptates qui, neque velit itaque beatae, quidem dolorum dolorem laborum iste expedita!</p>
+
+                                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque fugit vero nulla eveniet consequuntur. Cum quae nihil voluptate voluptates qui, neque velit itaque beatae, quidem dolorum dolorem laborum iste expedita!</p>
+
+                                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque fugit vero nulla eveniet consequuntur. Cum quae nihil voluptate voluptates qui, neque velit itaque beatae, quidem dolorum dolorem laborum iste expedita!</p>
+
+                                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque fugit vero nulla eveniet consequuntur. Cum quae nihil voluptate voluptates qui, neque velit itaque beatae, quidem dolorum dolorem laborum iste expedita!</p>
+
+
+                                
+
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Back</button>
+
+                            </div>
+
+
+
+                        </div>
+                        <!-- end modal-content -->
+
+
+                    </div>
+                    <!-- end modal dialog -->
+                    
+                </div>
+
+            </div>
+
+        </section>
 
         <section class="row">
+            <h4 class="display-6 text-center">My Projects</h4>
 
             <div class="col-4">
 
@@ -91,118 +155,9 @@
             </div>
             <!-- 1st -->
 
-
             <div class="col-4">
-                <div class="card card-shadow m-3 bg-warning">
-                    <img src="images/bed.png" alt="Bed" class="img-fluid">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Bed</h5>
 
-                        <strike>18000KES</strike>
-                        <p>15000KES</p> <br>
-
-                        <a href="" class="btn btn-primary btn-lg">Purchase Now</a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-            <!-- 2nd  -->
-
-
-            <div class="col-4">
-                <div class="card card-shadow m-3 bg-warning">
-                    <img src="images/bed.png" alt="Bed" class="img-fluid">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Bed</h5>
-
-                        <strike>18000KES</strike>
-                        <p>15000KES</p> <br>
-
-                        <a href="" class="btn btn-primary btn-lg">Purchase Now</a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-            <!-- 3rd -->
-
-        </section>
-
-        <!-- First Row -->
-
-        <section class="row">
-
-            <div class="col-4">
-                <div class="card card-shadow m-3 bg-warning">
-                    <img src="images/bed.png" alt="Bed" class="img-fluid">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Bed</h5>
-
-                        <strike>18000KES</strike>
-                        <p>15000KES</p> <br>
-
-                        <a href="" class="btn btn-primary btn-lg">Purchase Now</a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-            <!-- 1st -->
-
-
-            <div class="col-4">
-                <div class="card card-shadow m-3 bg-warning">
-                    <img src="images/bed.png" alt="Bed" class="img-fluid">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Bed</h5>
-
-                        <strike>18000KES</strike>
-                        <p>15000KES</p> <br>
-
-                        <a href="" class="btn btn-primary btn-lg">Purchase Now</a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-            <!-- 2nd  -->
-
-
-            <div class="col-4">
-                <div class="card card-shadow m-3 bg-warning">
-                    <img src="images/bed.png" alt="Bed" class="img-fluid">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Bed</h5>
-
-                        <strike>18000KES</strike>
-                        <p>15000KES</p> <br>
-
-                        <a href="" class="btn btn-primary btn-lg">Purchase Now</a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-            <!-- 3rd -->
-
-        </section>
-        <!-- second row -->
-
-
-        <section class="row">
-
-            <div class="col-4">
+                <!-- card -->
 
                 <div class="card card-shadow m-3 bg-warning">
                     <img src="images/bed.png" alt="Bed" class="img-fluid">
@@ -222,8 +177,10 @@
             </div>
             <!-- 1st -->
 
-
             <div class="col-4">
+
+                <!-- card -->
+
                 <div class="card card-shadow m-3 bg-warning">
                     <img src="images/bed.png" alt="Bed" class="img-fluid">
                     <div class="card-body text-center">
@@ -240,36 +197,17 @@
                 </div>
 
             </div>
-            <!-- 2nd  -->
+            <!-- 1st -->
+           
 
-
-            <div class="col-4">
-                <div class="card card-shadow m-3 bg-warning">
-                    <img src="images/bed.png" alt="Bed" class="img-fluid">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Bed</h5>
-
-                        <strike>18000KES</strike>
-                        <p>15000KES</p> <br>
-
-                        <a href="" class="btn btn-primary btn-lg">Purchase Now</a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-            <!-- 3rd -->
 
         </section>
 
     </div>
-    <!-- End Container -->
+    <!-- end container contents -->
 
+    <!-- footer -->
 
-
-    <!-- Footer page -->
 
     <div class="container-fluid bg-light p-5">
         <footer class="row">
@@ -299,8 +237,6 @@
         </footer>
 
     </div>
-
-
 
 </body>
 
